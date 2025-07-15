@@ -1,0 +1,3 @@
+./datasets/**.csv
+./datasets/**.tar*
+./datasets/**.df

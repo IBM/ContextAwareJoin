@@ -20,8 +20,14 @@ COMING SOON
 
 ## 🗃️ Datasets
 
+All the datasets used in the paper are publicly available, except the CIO dataset. 
 
-COMING SOON
+To get download the datasets and covert to the used format run the following script.
+
+```bash
+cd datasets
+./download.sh
+```
 
 ## ✋ License
 
