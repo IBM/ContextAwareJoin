@@ -29,3 +29,22 @@ rm -r wiki-join-search
 rm -r ./original.tar.bz2
 echo "WikiJoin Setup Done"
 
+# Go Sales
+
+echo "Downloading GO Sales"
+wget -O ./gosales/Extended_Samples_11_1_1.zip https://public.dhe.ibm.com/software/data/sw-library/cognos/mobile/deployments/Extended_Samples_11_1_1.zip
+wget -O ./gosales/Extended_Samples_11_1_2.zip https://public.dhe.ibm.com/software/data/sw-library/cognos/mobile/deployments/Extended_Samples_11_1_2.zip
+
+echo "=====Manual intervention needed====="
+echo "Use Either MS-SQL , IBM-DB2 or Oracle to load the dataset and dump CSVs to the datalake folder"
+
+echo "GOSales Setup Done"
+
+# Open Data
+
+echo "Downloading OpenData"
+wget https://zenodo.org/records/15881731/files/opendata-contextawarejoins.zip
+unzip opendata-contextawarejoins.zip 
+mv opendata-contextawarejoins opendata
+rm opendata-contextawarejoins.zip 
+echo "OpenData Setup Done"

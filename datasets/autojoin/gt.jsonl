@@ -1,30 +1,30 @@
-{"source": {"filename": "4744658528004388408", "col": "Title"}, "joinable_list": [{"filename": "4744658528004388408", "col": "Title", "score": 0.0}]}
-{"source": {"filename": "14891399545906964895", "col": "Governor's Name"}, "joinable_list": [{"filename": "14891399545906964895", "col": "Governor's Name", "score": 0.0}]}
-{"source": {"filename": "14891399545906964895", "col": "Time in Office"}, "joinable_list": [{"filename": "14891399545906964895", "col": "Time in Office", "score": 0.0}]}
-{"source": {"filename": "9108421652454725379", "col": "Governor"}, "joinable_list": [{"filename": "9108421652454725379", "col": "Governor", "score": 0.0}]}
-{"source": {"filename": "13837720109002909927", "col": "Province"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Province", "score": 0.0}]}
-{"source": {"filename": "13837720109002909927", "col": "Abbreviation"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Abbreviation", "score": 0.0}]}
-{"source": {"filename": "13837720109002909927", "col": "Capital"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Capital", "score": 0.0}]}
-{"source": {"filename": "13837720109002909927", "col": "Chinese Hanyu Pinyin"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Chinese Hanyu Pinyin", "score": 0.0}]}
-{"source": {"filename": "10322820364744366229", "col": "Song"}, "joinable_list": [{"filename": "10322820364744366229", "col": "Song", "score": 0.0}]}
-{"source": {"filename": "10322820364744366229", "col": "Artist"}, "joinable_list": [{"filename": "10322820364744366229", "col": "Artist", "score": 0.0}]}
-{"source": {"filename": "17199533875156679351", "col": "Title"}, "joinable_list": [{"filename": "17199533875156679351", "col": "Title", "score": 0.0}]}
-{"source": {"filename": "17199533875156679351", "col": "Artist"}, "joinable_list": [{"filename": "17199533875156679351", "col": "Artist", "score": 0.0}]}
-{"source": {"filename": "9895789987154839463", "col": "column 0"}, "joinable_list": [{"filename": "9895789987154839463", "col": "column 0", "score": 0.0}]}
-{"source": {"filename": "7487343489961500966", "col": "Name"}, "joinable_list": [{"filename": "7487343489961500966", "col": "Name", "score": 0.0}]}
-{"source": {"filename": "7487343489961500966", "col": "Political Party"}, "joinable_list": [{"filename": "7487343489961500966", "col": "Political Party", "score": 0.0}]}
-{"source": {"filename": "7487343489961500966", "col": "Held Office"}, "joinable_list": [{"filename": "7487343489961500966", "col": "Held Office", "score": 0.0}]}
-{"source": {"filename": "88625453274993551", "col": "Governor"}, "joinable_list": [{"filename": "88625453274993551", "col": "Governor", "score": 0.0}]}
-{"source": {"filename": "88625453274993551", "col": "Term of office"}, "joinable_list": [{"filename": "88625453274993551", "col": "Term of office", "score": 0.0}]}
-{"source": {"filename": "88625453274993551", "col": "Party"}, "joinable_list": [{"filename": "88625453274993551", "col": "Party", "score": 0.0}]}
-{"source": {"filename": "3598906640000315112", "col": "Location"}, "joinable_list": [{"filename": "3598906640000315112", "col": "Location", "score": 0.0}]}
-{"source": {"filename": "8776749200347126747", "col": "State"}, "joinable_list": [{"filename": "8776749200347126747", "col": "State", "score": 0.0}]}
-{"source": {"filename": "2426624364588699681", "col": "Governor"}, "joinable_list": [{"filename": "2426624364588699681", "col": "Governor", "score": 0.0}]}
-{"source": {"filename": "2426624364588699681", "col": "Party"}, "joinable_list": [{"filename": "2426624364588699681", "col": "Party", "score": 0.0}]}
-{"source": {"filename": "12194520077010656713", "col": "Governor"}, "joinable_list": [{"filename": "12194520077010656713", "col": "Governor", "score": 0.0}]}
-{"source": {"filename": "12194520077010656713", "col": "Party"}, "joinable_list": [{"filename": "12194520077010656713", "col": "Party", "score": 0.0}]}
-{"source": {"filename": "12194520077010656713", "col": "Years in Office"}, "joinable_list": [{"filename": "12194520077010656713", "col": "Years in Office", "score": 0.0}]}
-{"source": {"filename": "13887459594544854744", "col": "name"}, "joinable_list": [{"filename": "13887459594544854744", "col": "name", "score": 0.0}]}
-{"source": {"filename": "13887459594544854744", "col": "political party"}, "joinable_list": [{"filename": "13887459594544854744", "col": "political party", "score": 0.0}]}
-{"source": {"filename": "11558877847206176701", "col": "United States Cities"}, "joinable_list": [{"filename": "11558877847206176701", "col": "United States Cities", "score": 0.0}]}
-{"source": {"filename": "6416080283163489627", "col": "President"}, "joinable_list": [{"filename": "6416080283163489627", "col": "President", "score": 0.0}]}
+{"source": {"filename": "4744658528004388408", "col": "Title"}, "joinable_list": [{"filename": "4744658528004388408", "col": "Title"}]}
+{"source": {"filename": "14891399545906964895", "col": "Governor's Name"}, "joinable_list": [{"filename": "14891399545906964895", "col": "Governor's Name"}]}
+{"source": {"filename": "14891399545906964895", "col": "Time in Office"}, "joinable_list": [{"filename": "14891399545906964895", "col": "Time in Office"}]}
+{"source": {"filename": "9108421652454725379", "col": "Governor"}, "joinable_list": [{"filename": "9108421652454725379", "col": "Governor"}]}
+{"source": {"filename": "13837720109002909927", "col": "Province"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Province"}]}
+{"source": {"filename": "13837720109002909927", "col": "Abbreviation"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Abbreviation"}]}
+{"source": {"filename": "13837720109002909927", "col": "Capital"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Capital"}]}
+{"source": {"filename": "13837720109002909927", "col": "Chinese Hanyu Pinyin"}, "joinable_list": [{"filename": "13837720109002909927", "col": "Chinese Hanyu Pinyin"}]}
+{"source": {"filename": "10322820364744366229", "col": "Song"}, "joinable_list": [{"filename": "10322820364744366229", "col": "Song"}]}
+{"source": {"filename": "10322820364744366229", "col": "Artist"}, "joinable_list": [{"filename": "10322820364744366229", "col": "Artist"}]}
+{"source": {"filename": "17199533875156679351", "col": "Title"}, "joinable_list": [{"filename": "17199533875156679351", "col": "Title"}]}
+{"source": {"filename": "17199533875156679351", "col": "Artist"}, "joinable_list": [{"filename": "17199533875156679351", "col": "Artist"}]}
+{"source": {"filename": "9895789987154839463", "col": "column 0"}, "joinable_list": [{"filename": "9895789987154839463", "col": "column 0"}]}
+{"source": {"filename": "7487343489961500966", "col": "Name"}, "joinable_list": [{"filename": "7487343489961500966", "col": "Name"}]}
+{"source": {"filename": "7487343489961500966", "col": "Political Party"}, "joinable_list": [{"filename": "7487343489961500966", "col": "Political Party"}]}
+{"source": {"filename": "7487343489961500966", "col": "Held Office"}, "joinable_list": [{"filename": "7487343489961500966", "col": "Held Office"}]}
+{"source": {"filename": "88625453274993551", "col": "Governor"}, "joinable_list": [{"filename": "88625453274993551", "col": "Governor"}]}
+{"source": {"filename": "88625453274993551", "col": "Term of office"}, "joinable_list": [{"filename": "88625453274993551", "col": "Term of office"}]}
+{"source": {"filename": "88625453274993551", "col": "Party"}, "joinable_list": [{"filename": "88625453274993551", "col": "Party"}]}
+{"source": {"filename": "3598906640000315112", "col": "Location"}, "joinable_list": [{"filename": "3598906640000315112", "col": "Location"}]}
+{"source": {"filename": "8776749200347126747", "col": "State"}, "joinable_list": [{"filename": "8776749200347126747", "col": "State"}]}
+{"source": {"filename": "2426624364588699681", "col": "Governor"}, "joinable_list": [{"filename": "2426624364588699681", "col": "Governor"}]}
+{"source": {"filename": "2426624364588699681", "col": "Party"}, "joinable_list": [{"filename": "2426624364588699681", "col": "Party"}]}
+{"source": {"filename": "12194520077010656713", "col": "Governor"}, "joinable_list": [{"filename": "12194520077010656713", "col": "Governor"}]}
+{"source": {"filename": "12194520077010656713", "col": "Party"}, "joinable_list": [{"filename": "12194520077010656713", "col": "Party"}]}
+{"source": {"filename": "12194520077010656713", "col": "Years in Office"}, "joinable_list": [{"filename": "12194520077010656713", "col": "Years in Office"}]}
+{"source": {"filename": "13887459594544854744", "col": "name"}, "joinable_list": [{"filename": "13887459594544854744", "col": "name"}]}
+{"source": {"filename": "13887459594544854744", "col": "political party"}, "joinable_list": [{"filename": "13887459594544854744", "col": "political party"}]}
+{"source": {"filename": "11558877847206176701", "col": "United States Cities"}, "joinable_list": [{"filename": "11558877847206176701", "col": "United States Cities"}]}
+{"source": {"filename": "6416080283163489627", "col": "President"}, "joinable_list": [{"filename": "6416080283163489627", "col": "President"}]}
