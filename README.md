@@ -1,7 +1,7 @@
 # ContextAwareJoin
 
 <p align="center">
-    <a href="#">📄 Paper</a> • 
+    <a href="https://arxiv.org/abs/2507.11505">📄 Paper</a> • <a href="./GettingStarted.md">🔥 Getting Started</a>
 </p>
 
 <p align="center">
@@ -90,14 +90,7 @@ python main.py --benchmark ${BENCHMARK} --datalake-dir ${DATALAKE_DIR} --file-fo
 
 ## 🗃️ Datasets
 
-All the datasets used in the paper are publicly available, except the CIO dataset. 
-
-To download the datasets and covert to the used format run the following script.
-
-```bash
-cd datasets
-./download.sh
-```
+All the datasets used in the paper are publicly available, except the CIO dataset. Read more about the datasets [here](./datasets/README.md)
 
 ## ✋ License
 
