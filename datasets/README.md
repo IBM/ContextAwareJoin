@@ -7,22 +7,36 @@
 datasets
 ├── README.md                       # this file
 ├── download.sh                     # Run this script to get the datasets in the required format.
+|  
 ├── autojoin/               
-|  ├── datalake/               # This will be generated after the download.sh script is successfully executed
+|  ├── datalake/               # This will be generated after `download.sh`
 |  ├── gt.jsonl                # The ground truth file
 |  └── create_datalake.sh      # Script to covert the original dataset into a datalake
+|  
 ├── wikijoin
-|  ├── datalake/               # This will be generated after the download.sh script is successfully executed
+|  ├── datalake/               # This will be generated after `download.sh`
 |  └── gt.jsonl.tar.gz         # The ground truth file; this will be converted to gt.jsonl after `download.sh`
+|  
 ├── nextia/   
 |  ├── testbedM/               # NextiaJD Medium dataset
-|  |  ├── datalake/            # This will be generated after the download.sh
+|  |  ├── datalake/            # This will be generated after `download.sh`
 |  |  └── gt.jsonl             # The ground truth file
+|  |  
 |  └── testbedS/               # NextiaJD Small dataset
-|     ├── datalake/            # This will be generated after the download.sh
+|     ├── datalake/            # This will be generated after `download.sh`
 |     └── gt.jsonl             # The ground truth file
-├── dependencies/        # git submodules
-└── scripts/             # scripts to replicate empirical results
+|
+├── opendata/              # This folder will be generated after `download.sh`
+|     ├── datalake/         # Tables 
+|     ├── metadata/         # Metadata 
+|     └── gt.jsonl          # Ground Truth File
+|  
+├── valentine/              # Valentine dataset
+|  
+└── gosales/                 
+   ├── datalake/            # Generate manually after `download.sh`
+   └── gt.jsonl             # The ground truth file
+
 ```
 
 ## References
@@ -56,5 +70,11 @@ The Datasets folder contains the datasets used in the evaluations.
     
     Original Data Link: https://doi.org/10.5281/zenodo.5084605 
 
-GoSales:
-OpenData: TBA
+5. **GoSales**
+
+    Original Data Link: [IBM Cognos Analytics](https://accelerator.ca.analytics.ibm.com/bi/?perspective=authoring&pathRef=.public_folders%2FIBM%2BAccelerator%2BCatalog%2FContent%2FDEP00001&id=iD268937B6FDA49679A7F69574B242692)
+
+
+6. **OpenData**
+
+    Data Link: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15881731.svg)](https://doi.org/10.5281/zenodo.15881731)
