@@ -8,7 +8,7 @@ setup(
       "gitpython==3.1.41",
       "pandas",
       "tqdm",
-      "datasketch==1.6.4",
+      "datasketch==1.6.5",
       "fasttext",
       "scikit-learn==1.4.0",
       "scipy==1.12.0",
