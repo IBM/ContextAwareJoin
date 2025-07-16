@@ -2,3 +2,10 @@
 ./datasets/**.tar*
 ./datasets/**.df
 **/datalake
+./results/*
+*.pyc
+src/ContextAwareJoin.egg-info/dependency_links.txt
+src/ContextAwareJoin.egg-info/PKG-INFO
+src/ContextAwareJoin.egg-info/requires.txt
+src/ContextAwareJoin.egg-info/SOURCES.txt
+src/ContextAwareJoin.egg-info/top_level.txt

@@ -1,5 +1,16 @@
 # ContextAwareJoin -- Datasets
 
+All the datasets used in the paper are publicly available, except the CIO dataset. 
+
+## Getting Started 
+
+To download the datasets and covert to format compatible with the code run the following script.
+
+```bash
+cd datasets
+./download.sh
+```
+
 
 ## Folder Structure
 
