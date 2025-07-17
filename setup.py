@@ -10,7 +10,7 @@ setup(
       "tqdm",
       "datasketch==1.6.4",
       "fasttext",
-      "scikit-learn==1.4.0",
+      "scikit-learn==1.5.0",
       "scipy==1.12.0",
       "xxhash==3.4.1",
       "huggingface-hub==0.20.3",
