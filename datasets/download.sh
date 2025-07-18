@@ -48,3 +48,23 @@ unzip opendata-contextawarejoins.zip
 mv opendata-contextawarejoins opendata
 rm opendata-contextawarejoins.zip 
 echo "OpenData Setup Done"
+
+# NextIA
+wget https://mydisk.cs.upc.edu/s/dX3FajwWZn7rrrd/download
+unzip testbedS.zip
+mv testbedS/datasets ./nextia/testbedS/datalake
+rm testbedS.zip
+
+wget https://mydisk.cs.upc.edu/s/niPyR4WTtxydprj/download
+unzip testbedM.zip
+mv testbedM/datasets ./nextia/testbedM/datalake
+rm testbedM.zip
+
+# Valentine
+wget https://zenodo.org/records/5084605/files/Valentine-datasets.zip?download=1
+unzip Valentine-datasets.zip
+mv Valentine-datasets ./valentine
+for f in ./valentine/Valentine-datasets/*/Semantically-Joinable/*/*mapping*.json;do `python convert_valentine_gt.py $f`;done
+rm Valentine-datasets.zip
+
+
