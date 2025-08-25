@@ -10,7 +10,7 @@ sh ./create_datalake.sh
 rm -rf ./autojoin/original
 echo "AutoJoin Setup Done"
 
-
+cd ..
 
 # Wiki Join
 
@@ -29,6 +29,7 @@ rm -r wiki-join-search
 rm -r ./original.tar.bz2
 echo "WikiJoin Setup Done"
 
+cd ..
 # Go Sales
 
 echo "Downloading GO Sales"
@@ -50,18 +51,20 @@ rm opendata-contextawarejoins.zip
 echo "OpenData Setup Done"
 
 # NextIA
-wget https://mydisk.cs.upc.edu/s/dX3FajwWZn7rrrd/download
+wget -O testbedS.zip https://mydisk.cs.upc.edu/s/dX3FajwWZn7rrrd/download
 unzip testbedS.zip
 mv testbedS/datasets ./nextia/testbedS/datalake
+rm -rf testbedS
 rm testbedS.zip
 
-wget https://mydisk.cs.upc.edu/s/niPyR4WTtxydprj/download
+wget -O testbedM.zip https://mydisk.cs.upc.edu/s/niPyR4WTtxydprj/download
 unzip testbedM.zip
 mv testbedM/datasets ./nextia/testbedM/datalake
+rm -rf testbedM
 rm testbedM.zip
 
 # Valentine
-wget https://zenodo.org/records/5084605/files/Valentine-datasets.zip?download=1
+wget -O Valentine-datasets.zip https://zenodo.org/records/5084605/files/Valentine-datasets.zip?download=1
 unzip Valentine-datasets.zip
 mv Valentine-datasets ./valentine
 for f in ./valentine/Valentine-datasets/*/Semantically-Joinable/*/*mapping*.json;do `python convert_valentine_gt.py $f`;done
