@@ -67,6 +67,7 @@ rm testbedM.zip
 wget -O Valentine-datasets.zip "https://zenodo.org/records/5084605/files/Valentine-datasets.zip?download=1"
 unzip Valentine-datasets.zip
 rm -rf ./valentine
+mkdir ./valentine
 mv Valentine-datasets ./valentine
 for f in ./valentine/Valentine-datasets/*/Semantically-Joinable/*/*mapping*.json;do `python convert_valentine_gt.py $f`;done
 rm Valentine-datasets.zip
