@@ -131,9 +131,13 @@ def load_dataframe(file_path, file_format=".csv"):
         try:
             df = pd.read_csv(file_path, on_bad_lines="skip")
             if len(df.columns) == 1:
-                df = pd.read_csv(file_path, sep=';')
-        except Exception as e:
-            df = pd.read_csv(file_path, on_bad_lines="skip", encoding='unicode_escape')
+                try:
+                    df = pd.read_csv(file_path, sep=';')
+                except Exception as e:
+                    try:
+                        df = pd.read_csv(file_path, sep='\t')
+                    except Exception as e:
+                        df = pd.read_csv(file_path, on_bad_lines="skip", encoding='unicode_escape')
     elif file_format == '.df':
         df = pd.read_pickle(file_path)
     return df
