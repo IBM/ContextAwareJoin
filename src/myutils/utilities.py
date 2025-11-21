@@ -138,6 +138,9 @@ def load_dataframe(file_path, file_format=".csv"):
                         df = pd.read_csv(file_path, sep='\t')
                     except Exception as e:
                         df = pd.read_csv(file_path, on_bad_lines="skip", encoding='unicode_escape')
+        except:
+            raise Exception("cannot read file path", file_path)
+
     elif file_format == '.df':
         df = pd.read_pickle(file_path)
     return df
