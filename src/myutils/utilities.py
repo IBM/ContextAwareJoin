@@ -129,7 +129,7 @@ def load_dataframe(file_path, file_format=".csv"):
         df = pd.read_parquet(file_path, engine='pyarrow')
     elif file_format == '.csv':
         try:
-            df = pd.read_csv(file_path, on_bad_lines="skip")
+            df = pd.read_csv(file_path, on_bad_lines="skip", encoding='unicode_escape')
             if len(df.columns) == 1:
                 try:
                     df = pd.read_csv(file_path, sep=';')
